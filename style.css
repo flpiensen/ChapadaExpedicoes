@@ -1,0 +1,122 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #d1ffbd; 
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+main {
+    background-color: #f0f0f0;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 30px;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+/* Header */
+.container-principal {
+    background-color: white;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    margin-top: 48px;
+}
+
+.cabecalho {
+    box-sizing: border-box;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 35px;
+}
+
+.logo {
+    margin-top: 0px;
+    box-sizing: border-box;
+    height: 111px;
+    width: 110px;
+}
+
+.menu-navegacao {
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    margin-top: 40px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+/* Hero Image */
+.hero-image {
+    width: 100%;
+    display: block;
+}
+
+/* Destaques (Grid de imagens) */
+.destaques {
+    padding: 30px;
+}
+
+.grid-destaques {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.grid-destaques figure {
+    text-align: center;
+    flex: 1;
+}
+
+.grid-destaques img {
+    width: 100%;
+    border-radius: 5px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.grid-destaques figcaption {
+    font-size: 0.7rem;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Seções de Texto (Sobre e Contato) */
+.sobre, .contato {
+    padding: 0 40px 30px 40px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.sobre ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
